@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="650px" viewBox="0 0 800 650" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>日本地図</title>
+  <g id="Japan-Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- 北海道 -->
+    <path id="hokkaido" d="M617,74 L640,113 L659,129 L658,148 L686,164 L698,193 L678,228 L670,240 L649,243 L637,230 L615,246 L600,262 L577,276 L541,269 L515,243 L529,224 L505,194 L520,149 L547,118 L581,96 L617,74" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 東北 -->
+    <path id="aomori" d="M522,283 L545,272 L578,290 L585,307 L570,318 L540,315 L520,297 L522,283" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="akita" d="M574,318 L590,329 L590,349 L576,366 L558,354 L550,335 L558,322 L574,318" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="iwate" d="M584,309 L604,310 L619,332 L602,352 L591,350 L579,338 L590,330 L574,318 L584,309" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="yamagata" d="M577,367 L598,386 L578,410 L554,392 L558,372 L577,367" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="miyagi" d="M602,353 L622,360 L622,388 L598,386 L578,371 L592,353 L602,353" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="fukushima" d="M598,387 L622,389 L628,416 L608,433 L588,433 L578,410 L598,387" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 関東 -->
+    <path id="ibaraki" d="M608,433 L628,437 L636,459 L626,471 L608,466 L608,433" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="tochigi" d="M608,433 L589,433 L586,455 L608,466 L608,433" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="gunma" d="M589,433 L571,434 L556,454 L586,456 L589,433" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="saitama" d="M586,455 L556,454 L551,469 L583,472 L586,455" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="chiba" d="M608,466 L626,471 L628,500 L607,502 L588,486 L608,466" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="tokyo" d="M583,472 L596,486 L588,486 L580,481 L569,481 L567,469 L583,472" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kanagawa" d="M567,469 L569,481 L580,481 L588,486 L590,495 L572,498 L566,485 L567,469" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 中部 -->
+    <path id="niigata" d="M578,367 L559,371 L534,392 L530,417 L539,433 L571,434 L569,412 L578,410 L578,367" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="toyama" d="M534,392 L511,394 L499,407 L506,433 L539,433 L534,392" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="ishikawa" d="M506,394 L498,407 L492,392 L506,378 L514,395 L506,394" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="fukui" d="M490,393 L477,402 L470,419 L488,434 L498,407 L490,393" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="yamanashi" d="M551,469 L535,462 L523,476 L546,484 L567,470 L551,469" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="nagano" d="M535,461 L516,433 L508,433 L496,450 L496,474 L523,476 L535,461" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="gifu" d="M507,433 L488,433 L476,448 L496,474 L507,433" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="shizuoka" d="M546,484 L523,476 L519,502 L536,518 L566,496 L546,484" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="aichi" d="M496,474 L511,497 L519,502 L523,476 L496,474" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 近畿 -->
+    <path id="mie" d="M496,474 L476,486 L484,514 L511,497 L496,474" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="shiga" d="M476,449 L460,456 L457,482 L475,486 L496,474 L476,449" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kyoto" d="M459,456 L441,450 L437,472 L457,482 L459,456" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="osaka" d="M457,482 L438,472 L432,490 L457,499 L475,486 L457,482" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="hyogo" d="M437,472 L417,466 L407,482 L432,489 L437,472" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="nara" d="M457,482 L457,499 L484,514 L475,486 L457,482" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="wakayama" d="M457,499 L432,489 L429,513 L457,526 L474,514 L457,499" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 中国 -->
+    <path id="tottori" d="M417,466 L387,465 L381,477 L407,482 L417,466" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="shimane" d="M387,465 L358,466 L337,471 L346,490 L363,489 L381,477 L387,465" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="okayama" d="M407,482 L381,477 L363,489 L386,505 L403,494 L407,482" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="hiroshima" d="M363,489 L346,490 L344,509 L369,514 L386,505 L363,489" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="yamaguchi" d="M337,471 L311,485 L310,504 L344,509 L346,490 L337,471" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 四国 -->
+    <path id="tokushima" d="M429,513 L417,527 L440,535 L457,526 L429,513" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kagawa" d="M403,494 L386,505 L417,527 L429,513 L403,494" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="ehime" d="M386,505 L369,514 L363,538 L387,548 L417,527 L386,505" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kochi" d="M417,527 L387,548 L415,570 L440,535 L417,527" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 九州 -->
+    <path id="fukuoka" d="M311,485 L287,494 L277,513 L293,528 L310,504 L311,485" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="oita" d="M310,504 L293,528 L317,548 L339,533 L324,506 L310,504" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="saga" d="M293,494 L267,503 L265,525 L276,515 L293,494" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="nagasaki" d="M267,503 L245,510 L243,534 L265,525 L267,503" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kumamoto" d="M293,528 L265,525 L248,544 L257,570 L284,566 L317,548 L293,528" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="miyazaki" d="M317,548 L284,566 L304,593 L334,572 L339,553 L317,548" fill="#D8D8D8" stroke="#979797"></path>
+    <path id="kagoshima" d="M284,566 L257,570 L254,608 L275,623 L304,593 L284,566" fill="#D8D8D8" stroke="#979797"></path>
+    
+    <!-- 沖縄 -->
+    <path id="okinawa" d="M160,570 L140,590 L155,610 L175,592 L160,570" fill="#D8D8D8" stroke="#979797"></path>
+  </g>
+</svg>
