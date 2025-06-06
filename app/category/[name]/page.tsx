@@ -1,7 +1,8 @@
 import CategoryPageClient from './CategoryPageClient';
 
-export default function CategoryPage({ params }: { params: { name: string } }) {
-  const categoryName = decodeURIComponent(params.name);
-  
+export default async function CategoryPage({ params }: { params: Promise<{ name: string }> }) {
+  const { name } = await params;
+  const categoryName = decodeURIComponent(name);
+
   return <CategoryPageClient categoryName={categoryName} />;
-} 
+}
