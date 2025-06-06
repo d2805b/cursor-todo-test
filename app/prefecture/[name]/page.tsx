@@ -1,7 +1,8 @@
 import PrefecturePageClient from './PrefecturePageClient';
 
-export default function PrefecturePage({ params }: { params: { name: string } }) {
-  const prefectureName = decodeURIComponent(params.name);
-  
+export default async function PrefecturePage({ params }: { params: Promise<{ name: string }> }) {
+  const { name } = await params;
+  const prefectureName = decodeURIComponent(name);
+
   return <PrefecturePageClient prefectureName={prefectureName} />;
 }

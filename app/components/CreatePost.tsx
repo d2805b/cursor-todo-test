@@ -70,7 +70,7 @@ export default function CreatePost() {
     setError(null);
     
     try {
-      const { data, error } = await supabase
+      const { error } = await supabase
         .from('posts')
         .insert([
           {
@@ -89,8 +89,9 @@ export default function CreatePost() {
       // 投稿一覧ページにリダイレクト
       router.push('/posts');
       router.refresh();
-    } catch (err: any) {
-      setError(err.message);
+      } catch (err) {
+      const message = err instanceof Error ? err.message : '投稿に失敗しました';
+      setError(message);
       console.error('Error creating post:', err);
     } finally {
       setIsSubmitting(false);

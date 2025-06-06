@@ -3,10 +3,12 @@ import { createClient } from "@supabase/supabase-js";
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-// 環境変数が正しく設定されているかチェック
+// Supabase クライアントを作成
+const clientUrl: string = supabaseUrl ?? 'http://localhost';
+const clientKey: string = supabaseAnonKey ?? 'public-anon-key';
+
 if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error("Supabase環境変数が設定されていません！");
+  console.warn('Supabase環境変数が設定されていません。開発用のダミー値を使用します。');
 }
 
-// Supabase クライアントを作成
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createClient(clientUrl, clientKey);

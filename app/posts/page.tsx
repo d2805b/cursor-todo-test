@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
 import withAuth from '@/lib/auth/withAuth';
-import { useAuth } from '@/lib/contexts/AuthContext';
 
 // 投稿の型定義
 // 投稿の型定義
@@ -26,7 +25,6 @@ function PostsPage() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const { user } = useAuth();
 
  
   useEffect(() => {
@@ -62,8 +60,9 @@ function PostsPage() {
         })) || [];
         
         setPosts(formattedData);
-      } catch (err: any) {
-        setError(err.message);
+      } catch (err) {
+        const message = err instanceof Error ? err.message : '投稿の取得に失敗しました';
+        setError(message);
         console.error('Error fetching posts:', err);
       } finally {
         setIsLoading(false);
