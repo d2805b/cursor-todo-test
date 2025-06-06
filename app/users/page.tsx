@@ -8,7 +8,7 @@ type User = {
   id: string;
   name: string;
   location: string;
-  skills: string;
+  skills: string[];
 };
 
 export default function UsersPage() {
@@ -34,7 +34,7 @@ export default function UsersPage() {
           <li key={user.id}>
             <h3>{user.name}</h3>
             <p>Location: {user.location}</p>
-            <p>Skills: {user.skills}</p>
+            <p>Skills: {user.skills.join(', ')}</p>
           </li>
         ))}
       </ul>

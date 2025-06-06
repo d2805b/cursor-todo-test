@@ -12,8 +12,10 @@ export type Database = {
       posts: {
         Row: {
           id: number;
+          prefecture: string;
           category: string;
           content: string;
+          type: string;
           user_id: string;
           created_at: string;
         };

@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "node ./scripts/ensureNext.js dev --turbopack",
+    "build": "node ./scripts/ensureNext.js build",
+    "start": "node ./scripts/ensureNext.js start",
+    "lint": "node ./scripts/ensureNext.js lint"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.10.0",
